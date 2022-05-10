@@ -1,0 +1,30 @@
+# Nmap 7.60 scan initiated Sun Apr  8 22:25:43 2018 as: nmap -oG scan2 10.202.31.1/24
+Host: 10.202.31.110 ()	Status: Up
+Host: 10.202.31.110 ()	Status: Up
+Host: 10.202.31.111 ()	Status: Up
+Host: 10.202.31.111 ()	Status: Up
+Host: 10.202.31.112 ()	Status: Up
+Host: 10.202.31.112 ()	Status: Up
+Host: 10.202.31.113 ()	Status: Up
+Host: 10.202.31.113 ()	Status: Up
+Host: 10.202.31.114 ()	Status: Up
+Host: 10.202.31.114 ()	Status: Up
+Host: 10.202.31.115 ()	Status: Up
+Host: 10.202.31.115 ()	Status: Up
+Host: 10.202.31.117 ()	Status: Up
+Host: 10.202.31.117 ()	Status: Up
+Host: 10.202.31.118 ()	Status: Up
+Host: 10.202.31.118 ()	Status: Up
+Host: 10.202.31.119 ()	Status: Up
+Host: 10.202.31.119 ()	Status: Up
+Host: 10.202.31.120 ()	Status: Up
+Host: 10.202.31.120 ()	Status: Up
+Host: 10.202.31.122 ()	Status: Up
+Host: 10.202.31.122 ()	Status: Up
+Host: 10.202.31.123 ()	Status: Up
+Host: 10.202.31.123 ()	Status: Up
+Host: 10.202.31.125 ()	Status: Up
+Host: 10.202.31.125 ()	Status: Up
+Host: 10.202.31.101 ()	Status: Up
+Host: 10.202.31.101 ()	Ports: 80/open/tcp//http///, 1947/open/tcp//sentinelsrm///
+# Nmap done at Sun Apr  8 22:25:56 2018 -- 256 IP addresses (14 hosts up) scanned in 13.01 seconds

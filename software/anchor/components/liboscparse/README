@@ -1,0 +1,5 @@
+Liblo (OSC library) without GNU/Autocrap and network dependent non-portable code
+
+Based on liblo 0.26
+Builds by default for lm32-rtems4.11
+

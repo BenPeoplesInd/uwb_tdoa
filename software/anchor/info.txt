@@ -1,0 +1,68 @@
+typedef struct _reading {
+  uint16_t std_noise;
+  char tag_mac[32];
+  uint8_t seq;
+  uint8_t lock;
+  uint8_t sig;
+  uint64_t timestamp;
+  char anchor_mac[32];
+  float rx_level;
+  float delta;
+} reading_t;
+
+typedef struct _reading_cooked {
+  uint16_t std_noise;
+  char tag_mac[32];
+  uint8_t seq;
+  uint8_t lock;
+  uint8_t sig;
+  uint64_t timestamp;
+  char anchor_mac[32];
+  float rx_level;
+  float delta;
+  uint32_t anchor_id;
+  int32_t x;
+  int32_t y;
+  int32_t z;
+  float ddoa;
+} reading_cooked_t;
+
+
+X: 165.00 Y: 147.00 Z: 103.00 DDOA: 0.00 RSSI: -91.07 Delta: -20.67 Noise: 705
+X: 165.00 Y: 0.00 Z: 115.00 DDOA: -4.99 RSSI: -91.01 Delta: -23.74 Noise: 1125
+X: 165.00 Y: 302.00 Z: 115.00 DDOA: 69.82 RSSI: -90.49 Delta: -22.22 Noise: 901
+out:    98.447   109.972    71.872
+----
+X: 165.00 Y: 0.00 Z: 115.00 DDOA: 0.00 RSSI: -93.96 Delta: -21.76 Noise: 505
+X: 165.00 Y: 302.00 Z: 115.00 DDOA: 72.22 RSSI: -90.42 Delta: -22.29 Noise: 1001
+X: 20.00 Y: 0.00 Z: 120.00 DDOA: -73.70 RSSI: -90.47 Delta: -22.24 Noise: 1021
+X: 165.00 Y: 147.00 Z: 103.00 DDOA: 6.10 RSSI: -90.61 Delta: -23.34 Noise: 1229
+out:    77.551   106.488    42.685
+----
+X: 165.00 Y: 302.00 Z: 115.00 DDOA: 0.00 RSSI: -93.66 Delta: -19.63 Noise: 479
+X: 165.00 Y: 147.00 Z: 103.00 DDOA: -66.68 RSSI: -90.20 Delta: -21.54 Noise: 1072
+X: 165.00 Y: 0.00 Z: 115.00 DDOA: -72.04 RSSI: -90.54 Delta: -23.41 Noise: 1057
+X: 20.00 Y: 0.00 Z: 120.00 DDOA: -144.63 RSSI: -90.69 Delta: -22.60 Noise: 1086
+out:   147.670    74.958    72.504
+----
+X: 165.00 Y: 302.00 Z: 115.00 DDOA: 0.00 RSSI: -90.87 Delta: -20.87 Noise: 727
+X: 165.00 Y: 147.00 Z: 103.00 DDOA: -69.45 RSSI: -93.49 Delta: -18.25 Noise: 485
+X: 20.00 Y: 0.00 Z: 120.00 DDOA: -145.92 RSSI: -95.14 Delta: -18.82 Noise: 268
+out:   148.112    75.594    73.086
+----
+X: 165.00 Y: 302.00 Z: 115.00 DDOA: 0.00 RSSI: -90.95 Delta: -22.34 Noise: 1172
+X: 165.00 Y: 147.00 Z: 103.00 DDOA: -67.98 RSSI: -90.59 Delta: -21.61 Noise: 886
+X: 165.00 Y: 0.00 Z: 115.00 DDOA: -73.15 RSSI: -93.79 Delta: -20.96 Noise: 533
+out:   148.693    74.698    73.121
+----
+X: 165.00 Y: 302.00 Z: 115.00 DDOA: 0.00 RSSI: -90.84 Delta: -21.35 Noise: 896
+X: 165.00 Y: 0.00 Z: 115.00 DDOA: -72.96 RSSI: -90.47 Delta: -22.24 Noise: 937
+X: 165.00 Y: 147.00 Z: 103.00 DDOA: -65.76 RSSI: -90.38 Delta: -21.36 Noise: 931
+X: 20.00 Y: 0.00 Z: 120.00 DDOA: -145.74 RSSI: -90.77 Delta: -21.43 Noise: 869
+out:   148.205    74.278    73.083
+----
+X: 165.00 Y: 147.00 Z: 103.00 DDOA: 0.00 RSSI: -90.31 Delta: -21.02 Noise: 852
+X: 165.00 Y: 0.00 Z: 115.00 DDOA: -4.80 RSSI: -90.39 Delta: -25.33 Noise: 1375
+X: 165.00 Y: 302.00 Z: 115.00 DDOA: 64.10 RSSI: -91.31 Delta: -21.40 Noise: 879
+X: 20.00 Y: 0.00 Z: 120.00 DDOA: -76.10 RSSI: -94.41 Delta: -19.55 Noise: 483
+out:    98.618   113.202    38.092
